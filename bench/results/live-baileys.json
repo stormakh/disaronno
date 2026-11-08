@@ -1,0 +1,1072 @@
+{
+ "client": "baileys",
+ "started": "2026-11-06T22:18:12.879Z",
+ "done": true,
+ "stopReason": "history went quiet",
+ "exit": 1,
+ "loggedOut": true,
+ "qrSeenS": 1.07,
+ "connections": 1,
+ "closeCodes": [
+  515,
+  401
+ ],
+ "firstOpenS": 39.46,
+ "firstHistoryS": 43.27,
+ "lastHistoryS": 188.96,
+ "historyEvents": 45,
+ "chats": 2828,
+ "contacts": 4000,
+ "messages": 200887,
+ "upsertEvents": 60,
+ "upsertMessages": 61,
+ "lastProgress": 100,
+ "syncTypes": {
+  "0": 1,
+  "1": 1,
+  "2": 30,
+  "3": 11,
+  "4": 1,
+  "5": 1
+ },
+ "peakKb": 242472,
+ "peakAnonKb": 183400,
+ "lastRssKb": 154784,
+ "peakThreads": 11,
+ "cpuS": 7.24,
+ "cpuAtOpenS": 0.67,
+ "cpuAtLastHistoryS": 7.06,
+ "peakAtOpenKb": 130744,
+ "logs": {
+  "50 stream errored out": 1,
+  "40 no name present, ignoring presence update request...": 1
+ },
+ "timeline": [
+  {
+   "s": 3,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 5,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 8,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 10,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 13,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 15,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 18,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 20,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 23,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 25,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 28,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 30,
+   "rssKb": 121540,
+   "cpuS": 0.33,
+   "messages": 0
+  },
+  {
+   "s": 33,
+   "rssKb": 121648,
+   "cpuS": 0.34,
+   "messages": 0
+  },
+  {
+   "s": 35,
+   "rssKb": 123428,
+   "cpuS": 0.41,
+   "messages": 0
+  },
+  {
+   "s": 38,
+   "rssKb": 123544,
+   "cpuS": 0.43,
+   "messages": 0
+  },
+  {
+   "s": 40,
+   "rssKb": 132952,
+   "cpuS": 0.7,
+   "messages": 0
+  },
+  {
+   "s": 43,
+   "rssKb": 133048,
+   "cpuS": 0.71,
+   "messages": 0
+  },
+  {
+   "s": 45,
+   "rssKb": 195420,
+   "cpuS": 1.63,
+   "messages": 736
+  },
+  {
+   "s": 48,
+   "rssKb": 228428,
+   "cpuS": 2.19,
+   "messages": 736
+  },
+  {
+   "s": 50,
+   "rssKb": 239484,
+   "cpuS": 2.48,
+   "messages": 10243
+  },
+  {
+   "s": 53,
+   "rssKb": 241528,
+   "cpuS": 2.66,
+   "messages": 15221
+  },
+  {
+   "s": 55,
+   "rssKb": 241060,
+   "cpuS": 3.04,
+   "messages": 30124
+  },
+  {
+   "s": 58,
+   "rssKb": 241516,
+   "cpuS": 3.26,
+   "messages": 40091
+  },
+  {
+   "s": 60,
+   "rssKb": 241812,
+   "cpuS": 3.55,
+   "messages": 52976
+  },
+  {
+   "s": 63,
+   "rssKb": 217356,
+   "cpuS": 3.77,
+   "messages": 62934
+  },
+  {
+   "s": 65,
+   "rssKb": 230680,
+   "cpuS": 4.04,
+   "messages": 77797
+  },
+  {
+   "s": 68,
+   "rssKb": 230496,
+   "cpuS": 4.21,
+   "messages": 87751
+  },
+  {
+   "s": 70,
+   "rssKb": 230496,
+   "cpuS": 4.41,
+   "messages": 97714
+  },
+  {
+   "s": 73,
+   "rssKb": 230872,
+   "cpuS": 4.66,
+   "messages": 107678
+  },
+  {
+   "s": 75,
+   "rssKb": 216588,
+   "cpuS": 4.99,
+   "messages": 122604
+  },
+  {
+   "s": 78,
+   "rssKb": 216952,
+   "cpuS": 5.19,
+   "messages": 132561
+  },
+  {
+   "s": 80,
+   "rssKb": 218824,
+   "cpuS": 5.35,
+   "messages": 137539
+  },
+  {
+   "s": 83,
+   "rssKb": 219056,
+   "cpuS": 5.35,
+   "messages": 137539
+  },
+  {
+   "s": 85,
+   "rssKb": 219056,
+   "cpuS": 5.35,
+   "messages": 137539
+  },
+  {
+   "s": 88,
+   "rssKb": 221696,
+   "cpuS": 5.51,
+   "messages": 142505
+  },
+  {
+   "s": 90,
+   "rssKb": 221696,
+   "cpuS": 5.51,
+   "messages": 142505
+  },
+  {
+   "s": 93,
+   "rssKb": 221696,
+   "cpuS": 5.51,
+   "messages": 142505
+  },
+  {
+   "s": 95,
+   "rssKb": 221128,
+   "cpuS": 5.62,
+   "messages": 147470
+  },
+  {
+   "s": 98,
+   "rssKb": 221128,
+   "cpuS": 5.63,
+   "messages": 147470
+  },
+  {
+   "s": 100,
+   "rssKb": 221128,
+   "cpuS": 5.63,
+   "messages": 147470
+  },
+  {
+   "s": 103,
+   "rssKb": 218552,
+   "cpuS": 5.75,
+   "messages": 152462
+  },
+  {
+   "s": 105,
+   "rssKb": 218552,
+   "cpuS": 5.75,
+   "messages": 152462
+  },
+  {
+   "s": 108,
+   "rssKb": 218552,
+   "cpuS": 5.75,
+   "messages": 152462
+  },
+  {
+   "s": 110,
+   "rssKb": 215136,
+   "cpuS": 5.85,
+   "messages": 157444
+  },
+  {
+   "s": 113,
+   "rssKb": 215136,
+   "cpuS": 5.85,
+   "messages": 157444
+  },
+  {
+   "s": 115,
+   "rssKb": 215136,
+   "cpuS": 5.85,
+   "messages": 157444
+  },
+  {
+   "s": 118,
+   "rssKb": 215136,
+   "cpuS": 5.88,
+   "messages": 157444
+  },
+  {
+   "s": 120,
+   "rssKb": 208060,
+   "cpuS": 5.97,
+   "messages": 162420
+  },
+  {
+   "s": 123,
+   "rssKb": 208060,
+   "cpuS": 5.97,
+   "messages": 162420
+  },
+  {
+   "s": 125,
+   "rssKb": 208060,
+   "cpuS": 5.97,
+   "messages": 162420
+  },
+  {
+   "s": 128,
+   "rssKb": 209340,
+   "cpuS": 6.11,
+   "messages": 167396
+  },
+  {
+   "s": 130,
+   "rssKb": 209340,
+   "cpuS": 6.11,
+   "messages": 167396
+  },
+  {
+   "s": 133,
+   "rssKb": 209348,
+   "cpuS": 6.11,
+   "messages": 167396
+  },
+  {
+   "s": 135,
+   "rssKb": 210664,
+   "cpuS": 6.25,
+   "messages": 172371
+  },
+  {
+   "s": 138,
+   "rssKb": 210664,
+   "cpuS": 6.26,
+   "messages": 172371
+  },
+  {
+   "s": 140,
+   "rssKb": 210664,
+   "cpuS": 6.26,
+   "messages": 172371
+  },
+  {
+   "s": 143,
+   "rssKb": 207488,
+   "cpuS": 6.26,
+   "messages": 172371
+  },
+  {
+   "s": 145,
+   "rssKb": 207488,
+   "cpuS": 6.27,
+   "messages": 172371
+  },
+  {
+   "s": 148,
+   "rssKb": 207488,
+   "cpuS": 6.29,
+   "messages": 172371
+  },
+  {
+   "s": 150,
+   "rssKb": 208964,
+   "cpuS": 6.4,
+   "messages": 177356
+  },
+  {
+   "s": 153,
+   "rssKb": 208964,
+   "cpuS": 6.4,
+   "messages": 177356
+  },
+  {
+   "s": 155,
+   "rssKb": 208964,
+   "cpuS": 6.4,
+   "messages": 177356
+  },
+  {
+   "s": 158,
+   "rssKb": 205532,
+   "cpuS": 6.41,
+   "messages": 177356
+  },
+  {
+   "s": 160,
+   "rssKb": 206964,
+   "cpuS": 6.54,
+   "messages": 182343
+  },
+  {
+   "s": 163,
+   "rssKb": 206964,
+   "cpuS": 6.54,
+   "messages": 182343
+  },
+  {
+   "s": 165,
+   "rssKb": 206976,
+   "cpuS": 6.54,
+   "messages": 182343
+  },
+  {
+   "s": 168,
+   "rssKb": 206976,
+   "cpuS": 6.54,
+   "messages": 182343
+  },
+  {
+   "s": 170,
+   "rssKb": 208512,
+   "cpuS": 6.71,
+   "messages": 187335
+  },
+  {
+   "s": 173,
+   "rssKb": 208512,
+   "cpuS": 6.71,
+   "messages": 187335
+  },
+  {
+   "s": 175,
+   "rssKb": 208512,
+   "cpuS": 6.72,
+   "messages": 187335
+  },
+  {
+   "s": 178,
+   "rssKb": 208372,
+   "cpuS": 6.89,
+   "messages": 192318
+  },
+  {
+   "s": 180,
+   "rssKb": 208372,
+   "cpuS": 6.89,
+   "messages": 192318
+  },
+  {
+   "s": 183,
+   "rssKb": 208372,
+   "cpuS": 6.9,
+   "messages": 192318
+  },
+  {
+   "s": 185,
+   "rssKb": 202904,
+   "cpuS": 7.01,
+   "messages": 197311
+  },
+  {
+   "s": 188,
+   "rssKb": 202904,
+   "cpuS": 7.01,
+   "messages": 197311
+  },
+  {
+   "s": 190,
+   "rssKb": 203308,
+   "cpuS": 7.08,
+   "messages": 200887
+  },
+  {
+   "s": 193,
+   "rssKb": 203416,
+   "cpuS": 7.09,
+   "messages": 200887
+  },
+  {
+   "s": 195,
+   "rssKb": 203264,
+   "cpuS": 7.1,
+   "messages": 200887
+  },
+  {
+   "s": 198,
+   "rssKb": 203264,
+   "cpuS": 7.1,
+   "messages": 200887
+  },
+  {
+   "s": 200,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 203,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 205,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 208,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 210,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 213,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 215,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 218,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 220,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 223,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 225,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 228,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 230,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 233,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 235,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 238,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 240,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 243,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 245,
+   "rssKb": 203264,
+   "cpuS": 7.11,
+   "messages": 200887
+  },
+  {
+   "s": 248,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 250,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 253,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 255,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 258,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 260,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 263,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 266,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 268,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 271,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 273,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 276,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 278,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 281,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 283,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 286,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 288,
+   "rssKb": 203268,
+   "cpuS": 7.12,
+   "messages": 200887
+  },
+  {
+   "s": 291,
+   "rssKb": 154564,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 293,
+   "rssKb": 154592,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 296,
+   "rssKb": 154592,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 298,
+   "rssKb": 154592,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 301,
+   "rssKb": 154592,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 303,
+   "rssKb": 154592,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 306,
+   "rssKb": 154592,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 308,
+   "rssKb": 154596,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 311,
+   "rssKb": 154596,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 313,
+   "rssKb": 154596,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 316,
+   "rssKb": 154596,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 318,
+   "rssKb": 154596,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 321,
+   "rssKb": 154596,
+   "cpuS": 7.18,
+   "messages": 200887
+  },
+  {
+   "s": 323,
+   "rssKb": 154608,
+   "cpuS": 7.19,
+   "messages": 200887
+  },
+  {
+   "s": 326,
+   "rssKb": 154608,
+   "cpuS": 7.19,
+   "messages": 200887
+  },
+  {
+   "s": 328,
+   "rssKb": 154608,
+   "cpuS": 7.19,
+   "messages": 200887
+  },
+  {
+   "s": 331,
+   "rssKb": 154608,
+   "cpuS": 7.19,
+   "messages": 200887
+  },
+  {
+   "s": 333,
+   "rssKb": 154608,
+   "cpuS": 7.19,
+   "messages": 200887
+  },
+  {
+   "s": 336,
+   "rssKb": 154608,
+   "cpuS": 7.19,
+   "messages": 200887
+  },
+  {
+   "s": 338,
+   "rssKb": 154608,
+   "cpuS": 7.19,
+   "messages": 200887
+  },
+  {
+   "s": 341,
+   "rssKb": 154608,
+   "cpuS": 7.19,
+   "messages": 200887
+  },
+  {
+   "s": 343,
+   "rssKb": 154628,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 346,
+   "rssKb": 154632,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 348,
+   "rssKb": 154632,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 351,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 353,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 356,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 358,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 361,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 363,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 366,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 368,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 371,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 373,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 376,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 378,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 381,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 383,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 386,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 388,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 391,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 393,
+   "rssKb": 154636,
+   "cpuS": 7.2,
+   "messages": 200887
+  },
+  {
+   "s": 396,
+   "rssKb": 154384,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 398,
+   "rssKb": 154472,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 401,
+   "rssKb": 154472,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 403,
+   "rssKb": 154472,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 406,
+   "rssKb": 154472,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 408,
+   "rssKb": 154472,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 411,
+   "rssKb": 154472,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 413,
+   "rssKb": 154472,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 416,
+   "rssKb": 154472,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 418,
+   "rssKb": 154496,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 421,
+   "rssKb": 154496,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 423,
+   "rssKb": 154528,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 426,
+   "rssKb": 154528,
+   "cpuS": 7.24,
+   "messages": 200887
+  },
+  {
+   "s": 428,
+   "rssKb": 154584,
+   "cpuS": 7.24,
+   "messages": 200887
+  }
+ ]
+}

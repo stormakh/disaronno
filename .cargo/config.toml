@@ -1,0 +1,4 @@
+# A static binary has no dynamic loader or libc.so pages. See `builtin_name_lookup` for how host lookups work in it.
+# The serial backend of curve25519-dalek has no proc macro, and a host proc macro cannot be built with crt-static.
+[target.x86_64-unknown-linux-gnu]
+rustflags = ["-C", "target-feature=+crt-static", "--cfg", "curve25519_dalek_backend=\"serial\""]

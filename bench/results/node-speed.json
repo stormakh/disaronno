@@ -1,0 +1,15 @@
+{
+  "binary_encode": 17819.4,
+  "binary_decode": 143286.4,
+  "proto_encode": 320526.4,
+  "proto_decode": 517307.5,
+  "history_decode": 243.3,
+  "lthash_64": 3466.5,
+  "media_encrypt_1mb": 128.1,
+  "curve_sign": 105.5,
+  "curve_agree": 5826.5,
+  "signal_roundtrip": 1997.1,
+  "group_roundtrip": 46.7,
+  "appstate_roundtrip": 4663.7,
+  "receive_pipeline": 3189.6
+}

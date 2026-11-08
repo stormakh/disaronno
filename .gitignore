@@ -1,0 +1,8 @@
+target/
+upstream/
+lust-lang/
+tools/
+.lust-cache/
+.lust-daemon*
+bench/fixtures/*.bin
+bench/results/*.tmp

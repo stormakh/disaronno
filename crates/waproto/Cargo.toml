@@ -1,0 +1,10 @@
+[package]
+name = "waproto"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[features]
+default = ["native"]
+# Zero-validation string access in release builds. Lust dev builds use the safe path.
+native = []

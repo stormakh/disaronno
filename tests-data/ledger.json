@@ -1,0 +1,2444 @@
+[
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_fuzz_random_long_values_100_random_signed_values_match",
+  "fullName": "BigInt vs Long equivalence validation fuzz: random Long values 100 random signed values match"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_fuzz_random_long_values_100_random_unsigned_values_match",
+  "fullName": "BigInt vs Long equivalence validation fuzz: random Long values 100 random unsigned values match"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_1_as_signed_long_long_1_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence -1 as signed Long: Long(-1, -1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_2_32_long_0_1_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence 2^32: Long(0, 1, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_2_32_signed_long_0_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence 2^32 signed: Long(0, 1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_2_48_long_0_65536_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence 2^48: Long(0, 65536, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_2_63_long_0_2147483648_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence 2^63: Long(0, -2147483648, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_high_0_low_1_0xffffffff_long_1_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence high=0, low=-1 (0xFFFFFFFF): Long(-1, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_high_0x7fffffff_low_0xffffffff_max_int64_long_1_2147483647_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence high=0x7FFFFFFF, low=0xFFFFFFFF (max int64): Long(-1, 2147483647, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_high_0x80000000_low_0_min_int64_long_0_2147483648_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence high=0x80000000, low=0 (min int64): Long(0, -2147483648, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_high_1_low_0_long_0_1_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence high=1, low=0: Long(0, 1, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_high_1_low_1_unsigned_max_uint64_long_1_1_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence high=-1, low=-1 unsigned (max uint64): Long(-1, -1, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_large_file_2gb_long_2147483648_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence large file 2GB: Long(-2147483648, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_large_unsigned_long_1981284353_1966660860_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence large unsigned: Long(-1981284353, -1966660860, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_max_int32_long_2147483647_0_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence max int32: Long(2147483647, 0, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_max_int64_long_1_2147483647_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence max int64: Long(-1, 2147483647, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_max_safe_integer_1_long_0_2097152_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence MAX_SAFE_INTEGER + 1: Long(0, 2097152, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_max_safe_integer_long_1_2097151_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence MAX_SAFE_INTEGER: Long(-1, 2097151, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_max_safe_integer_unsigned_long_1_2097151_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence MAX_SAFE_INTEGER unsigned: Long(-1, 2097151, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_max_uint32_long_1_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence max uint32: Long(-1, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_max_uint64_1_long_2_1_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence max uint64 - 1: Long(-2, -1, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_max_uint64_long_1_1_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence max uint64: Long(-1, -1, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_medium_file_10mb_long_10485760_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence medium file 10MB: Long(10485760, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_min_int32_long_2147483648_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence min int32: Long(-2147483648, -1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_min_int64_long_0_2147483648_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence min int64: Long(0, -2147483648, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_negative_large_long_2147483648_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence negative large: Long(-2147483648, -1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_negative_one_long_1_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence negative one: Long(-1, -1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_negative_small_long_100_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence negative small: Long(-100, -1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_one_signed_long_1_0_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence one signed: Long(1, 0, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_one_unsigned_long_1_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence one unsigned: Long(1, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_small_file_long_1024_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence small file: Long(1024, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_timestamp_2023_long_1700000000_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence timestamp 2023: Long(1700000000, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_timestamp_2025_long_1750000000_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence timestamp 2025: Long(1750000000, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_timestamp_as_signed_long_1700000000_0_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence timestamp as signed: Long(1700000000, 0, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_zero_signed_long_0_0_false",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence zero signed: Long(0, 0, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtonumber_equivalence_zero_unsigned_long_0_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToNumber equivalence zero unsigned: Long(0, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_1_as_signed_long_long_1_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence -1 as signed Long: Long(-1, -1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_2_32_long_0_1_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence 2^32: Long(0, 1, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_2_32_signed_long_0_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence 2^32 signed: Long(0, 1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_2_48_long_0_65536_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence 2^48: Long(0, 65536, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_2_63_long_0_2147483648_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence 2^63: Long(0, -2147483648, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_high_0_low_1_0xffffffff_long_1_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence high=0, low=-1 (0xFFFFFFFF): Long(-1, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_high_0x7fffffff_low_0xffffffff_max_int64_long_1_2147483647_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence high=0x7FFFFFFF, low=0xFFFFFFFF (max int64): Long(-1, 2147483647, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_high_0x80000000_low_0_min_int64_long_0_2147483648_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence high=0x80000000, low=0 (min int64): Long(0, -2147483648, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_high_1_low_0_long_0_1_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence high=1, low=0: Long(0, 1, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_high_1_low_1_unsigned_max_uint64_long_1_1_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence high=-1, low=-1 unsigned (max uint64): Long(-1, -1, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_large_file_2gb_long_2147483648_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence large file 2GB: Long(-2147483648, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_large_unsigned_long_1981284353_1966660860_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence large unsigned: Long(-1981284353, -1966660860, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_max_int32_long_2147483647_0_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence max int32: Long(2147483647, 0, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_max_int64_long_1_2147483647_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence max int64: Long(-1, 2147483647, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_max_safe_integer_1_long_0_2097152_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence MAX_SAFE_INTEGER + 1: Long(0, 2097152, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_max_safe_integer_long_1_2097151_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence MAX_SAFE_INTEGER: Long(-1, 2097151, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_max_safe_integer_unsigned_long_1_2097151_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence MAX_SAFE_INTEGER unsigned: Long(-1, 2097151, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_max_uint32_long_1_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence max uint32: Long(-1, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_max_uint64_1_long_2_1_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence max uint64 - 1: Long(-2, -1, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_max_uint64_long_1_1_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence max uint64: Long(-1, -1, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_medium_file_10mb_long_10485760_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence medium file 10MB: Long(10485760, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_min_int32_long_2147483648_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence min int32: Long(-2147483648, -1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_min_int64_long_0_2147483648_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence min int64: Long(0, -2147483648, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_negative_large_long_2147483648_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence negative large: Long(-2147483648, -1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_negative_one_long_1_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence negative one: Long(-1, -1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_negative_small_long_100_1_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence negative small: Long(-100, -1, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_one_signed_long_1_0_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence one signed: Long(1, 0, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_one_unsigned_long_1_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence one unsigned: Long(1, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_small_file_long_1024_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence small file: Long(1024, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_timestamp_2023_long_1700000000_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence timestamp 2023: Long(1700000000, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_timestamp_2025_long_1750000000_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence timestamp 2025: Long(1750000000, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_timestamp_as_signed_long_1700000000_0_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence timestamp as signed: Long(1700000000, 0, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_zero_signed_long_0_0_false",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence zero signed: Long(0, 0, false)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_longtostring_equivalence_zero_unsigned_long_0_0_true",
+  "fullName": "BigInt vs Long equivalence validation longToString equivalence zero unsigned: Long(0, 0, true)"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_non_long_inputs_fallback_paths_null_undefined_fallback",
+  "fullName": "BigInt vs Long equivalence validation non-Long inputs (fallback paths) null/undefined fallback"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_non_long_inputs_fallback_paths_number_passthrough",
+  "fullName": "BigInt vs Long equivalence validation non-Long inputs (fallback paths) number passthrough"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_non_long_inputs_fallback_paths_object_without_low_high",
+  "fullName": "BigInt vs Long equivalence validation non-Long inputs (fallback paths) object without low/high"
+ },
+ {
+  "suite": "bigint-validation",
+  "file": "bigint_validation",
+  "name": "t_bigint_vs_long_equivalence_validation_non_long_inputs_fallback_paths_string_passthrough",
+  "fullName": "BigInt vs Long equivalence validation non-Long inputs (fallback paths) string passthrough"
+ },
+ {
+  "suite": "binary/connection-deadlock",
+  "file": "binary_connection_deadlock",
+  "name": "t_connection_deadlock_test_should_not_deadlock_when_history_sync_is_disabled",
+  "fullName": "Connection Deadlock Test should not deadlock when history sync is disabled"
+ },
+ {
+  "suite": "binary/reconnection-sync-skip",
+  "file": "binary_reconnection_sync_skip",
+  "name": "t_reconnection_sync_skip_should_skip_20s_history_sync_wait_on_reconnection_accountsynccounter_0",
+  "fullName": "Reconnection Sync Skip should skip 20s history sync wait on reconnection (accountSyncCounter > 0)"
+ },
+ {
+  "suite": "binary/reconnection-sync-skip",
+  "file": "binary_reconnection_sync_skip",
+  "name": "t_reconnection_sync_skip_should_still_wait_for_history_sync_on_fresh_pairing_accountsynccounter_0",
+  "fullName": "Reconnection Sync Skip should still wait for history sync on fresh pairing (accountSyncCounter === 0)"
+ },
+ {
+  "suite": "proto-tojson-long",
+  "file": "proto_tojson_long",
+  "name": "t_proto_serialization_converts_long_objects_to_strings_correctly_via_bigint_fast_path",
+  "fullName": "proto serialization converts Long objects to strings correctly via BigInt fast path"
+ },
+ {
+  "suite": "proto-tojson-long",
+  "file": "proto_tojson_long",
+  "name": "t_proto_serialization_handles_large_unsigned_long_values_max_safe_integer",
+  "fullName": "proto serialization handles large unsigned Long values (> MAX_SAFE_INTEGER)"
+ },
+ {
+  "suite": "proto-tojson-long",
+  "file": "proto_tojson_long",
+  "name": "t_proto_serialization_handles_string_values_in_long_fields_gracefully",
+  "fullName": "proto serialization handles string values in long fields gracefully"
+ },
+ {
+  "suite": "proto-tojson-long",
+  "file": "proto_tojson_long",
+  "name": "t_proto_serialization_handles_zero_and_small_long_values",
+  "fullName": "proto serialization handles zero and small Long values"
+ },
+ {
+  "suite": "proto-tojson-long",
+  "file": "proto_tojson_long",
+  "name": "t_proto_serialization_roundtrips_encode_decode_with_long_fields_preserving_values",
+  "fullName": "proto serialization roundtrips encode/decode with Long fields preserving values"
+ },
+ {
+  "suite": "Signal/Group/sender-key-state-regression",
+  "file": "signal_group_sender_key_state_regression",
+  "name": "t_senderkeystate_regression_missing_sendermessagekeys_array_should_initialize_sendermessagekeys_when_absent_in_provided_structure",
+  "fullName": "SenderKeyState regression: missing senderMessageKeys array should initialize senderMessageKeys when absent in provided structure"
+ },
+ {
+  "suite": "Signal/lid-mapping",
+  "file": "signal_lid_mapping",
+  "name": "t_lidmappingstore_getpnforlid_should_correctly_map_a_standard_lid_with_a_hosted_device_id_back_to_a_standard_pn_with_a_hosted_device",
+  "fullName": "LIDMappingStore getPNForLID should correctly map a standard LID with a hosted device ID back to a standard PN with a hosted device"
+ },
+ {
+  "suite": "Signal/lid-mapping",
+  "file": "signal_lid_mapping",
+  "name": "t_lidmappingstore_getpnforlid_should_return_null_if_no_reverse_mapping_is_found",
+  "fullName": "LIDMappingStore getPNForLID should return null if no reverse mapping is found"
+ },
+ {
+  "suite": "Socket/chats",
+  "file": "socket_chats",
+  "name": "t_buildprofilepicturequerycontent_builds_a_profile_picture_query_without_tctoken_content",
+  "fullName": "buildProfilePictureQueryContent builds a profile picture query without tctoken content"
+ },
+ {
+  "suite": "Socket/chats",
+  "file": "socket_chats",
+  "name": "t_buildprofilepicturequerycontent_nests_tctoken_under_the_picture_node",
+  "fullName": "buildProfilePictureQueryContent nests tctoken under the picture node"
+ },
+ {
+  "suite": "Socket/groups",
+  "file": "socket_groups",
+  "name": "t_extractgroupmetadata_falls_back_to_a_generic_boom_when_neither_group_nor_error_is_present",
+  "fullName": "extractGroupMetadata falls back to a generic Boom when neither <group> nor <error> is present"
+ },
+ {
+  "suite": "Socket/groups",
+  "file": "socket_groups",
+  "name": "t_extractgroupmetadata_keeps_the_suffix_when_group_id_already_contains_it",
+  "fullName": "extractGroupMetadata keeps the @-suffix when group id already contains it"
+ },
+ {
+  "suite": "Socket/groups",
+  "file": "socket_groups",
+  "name": "t_extractgroupmetadata_parses_a_valid_group_node",
+  "fullName": "extractGroupMetadata parses a valid <group> node"
+ },
+ {
+  "suite": "Socket/groups",
+  "file": "socket_groups",
+  "name": "t_extractgroupmetadata_throws_boom_with_the_server_error_code_text_when_no_group_is_present",
+  "fullName": "extractGroupMetadata throws Boom with the server <error> code+text when no <group> is present"
+ },
+ {
+  "suite": "Socket/groups",
+  "file": "socket_groups",
+  "name": "t_extractgroupmetadata_throws_when_the_group_node_lacks_an_id",
+  "fullName": "extractGroupMetadata throws when the <group> node lacks an id"
+ },
+ {
+  "suite": "Socket/groups",
+  "file": "socket_groups",
+  "name": "t_extractgroupmetadata_uses_default_code_500_when_error_has_no_code_attribute",
+  "fullName": "extractGroupMetadata uses default code 500 when <error> has no code attribute"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_core_checks_should_process_primary_device_device_0_or_undefined",
+  "fullName": "Identity Change Handling Core Checks should process primary device (device 0 or undefined)"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_core_checks_should_refresh_session_when_online_with_existing_session",
+  "fullName": "Identity Change Handling Core Checks should refresh session when online with existing session"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_core_checks_should_skip_companion_devices_device_0",
+  "fullName": "Identity Change Handling Core Checks should skip companion devices (device > 0)"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_core_checks_should_skip_self_primary_identity_lid_match",
+  "fullName": "Identity Change Handling Core Checks should skip self-primary identity (LID match)"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_core_checks_should_skip_self_primary_identity_pn_match",
+  "fullName": "Identity Change Handling Core Checks should skip self-primary identity (PN match)"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_core_checks_should_skip_session_refresh_during_offline_processing",
+  "fullName": "Identity Change Handling Core Checks should skip session refresh during offline processing"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_core_checks_should_skip_when_no_existing_session",
+  "fullName": "Identity Change Handling Core Checks should skip when no existing session"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_debounce_should_allow_different_jids_to_process_independently",
+  "fullName": "Identity Change Handling Debounce should allow different JIDs to process independently"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_debounce_should_debounce_multiple_identity_changes_for_the_same_jid",
+  "fullName": "Identity Change Handling Debounce should debounce multiple identity changes for the same JID"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_edge_cases_should_handle_lid_jids_correctly",
+  "fullName": "Identity Change Handling Edge Cases should handle LID JIDs correctly"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_edge_cases_should_return_invalid_notification_when_from_is_missing",
+  "fullName": "Identity Change Handling Edge Cases should return invalid_notification when from is missing"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_edge_cases_should_return_no_identity_node_when_identity_child_is_missing",
+  "fullName": "Identity Change Handling Edge Cases should return no_identity_node when identity child is missing"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_error_handling_should_handle_assertsessions_failure_gracefully",
+  "fullName": "Identity Change Handling Error Handling should handle assertSessions failure gracefully"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_error_handling_should_propagate_validatesession_errors",
+  "fullName": "Identity Change Handling Error Handling should propagate validateSession errors"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_onbeforesessionrefresh_callback_does_not_fire_when_the_refresh_is_skipped_no_session_offline_self",
+  "fullName": "Identity Change Handling onBeforeSessionRefresh callback does not fire when the refresh is skipped (no session / offline / self)"
+ },
+ {
+  "suite": "Socket/identity-change-handling",
+  "file": "socket_identity_change_handling",
+  "name": "t_identity_change_handling_onbeforesessionrefresh_callback_fires_before_assertsessions_when_a_session_refresh_is_about_to_run",
+  "fullName": "Identity Change Handling onBeforeSessionRefresh callback fires before assertSessions when a session refresh is about to run"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_isappstatesyncirrecoverable_should_be_irrecoverable_for_typeerror",
+  "fullName": "App State Sync isAppStateSyncIrrecoverable should be irrecoverable for TypeError"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_isappstatesyncirrecoverable_should_be_irrecoverable_when_attempts_max_sync_attempts",
+  "fullName": "App State Sync isAppStateSyncIrrecoverable should be irrecoverable when attempts >= MAX_SYNC_ATTEMPTS"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_isappstatesyncirrecoverable_should_handle_null_undefined_error_gracefully",
+  "fullName": "App State Sync isAppStateSyncIrrecoverable should handle null/undefined error gracefully"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_isappstatesyncirrecoverable_should_not_be_irrecoverable_for_generic_error_below_max_attempts",
+  "fullName": "App State Sync isAppStateSyncIrrecoverable should NOT be irrecoverable for generic error below max attempts"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_isappstatesyncirrecoverable_should_not_be_irrecoverable_for_non_fatal_status_codes",
+  "fullName": "App State Sync isAppStateSyncIrrecoverable should NOT be irrecoverable for non-fatal status codes"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_isappstatesyncirrecoverable_should_not_be_irrecoverable_for_status_400_dead_code_path_removed",
+  "fullName": "App State Sync isAppStateSyncIrrecoverable should NOT be irrecoverable for status 400 (dead code path removed)"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_isappstatesyncirrecoverable_should_not_be_irrecoverable_for_status_404_missing_key_is_blocked_not_fatal",
+  "fullName": "App State Sync isAppStateSyncIrrecoverable should NOT be irrecoverable for status 404 (missing key is Blocked, not Fatal)"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_isappstatesyncirrecoverable_should_not_be_irrecoverable_for_status_405",
+  "fullName": "App State Sync isAppStateSyncIrrecoverable should NOT be irrecoverable for status 405"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_isappstatesyncirrecoverable_should_not_be_irrecoverable_for_status_406",
+  "fullName": "App State Sync isAppStateSyncIrrecoverable should NOT be irrecoverable for status 406"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_missing_key_errors_are_marked_with_ismissingkey_blocked_in_wa_web_decodesyncdmutations_throws_with_ismissingkey_on_missing_mutation_key",
+  "fullName": "App State Sync missing key errors are marked with isMissingKey (Blocked in WA Web) decodeSyncdMutations throws with isMissingKey on missing mutation key"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_missing_key_errors_are_marked_with_ismissingkey_blocked_in_wa_web_decodesyncdpatch_throws_with_ismissingkey_on_missing_key",
+  "fullName": "App State Sync missing key errors are marked with isMissingKey (Blocked in WA Web) decodeSyncdPatch throws with isMissingKey on missing key"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_missing_key_errors_are_marked_with_ismissingkey_blocked_in_wa_web_decodesyncdsnapshot_throws_with_ismissingkey_on_missing_snapshot_key",
+  "fullName": "App State Sync missing key errors are marked with isMissingKey (Blocked in WA Web) decodeSyncdSnapshot throws with isMissingKey on missing snapshot key"
+ },
+ {
+  "suite": "Utils/app-state-sync-resilience",
+  "file": "utils_app_state_sync_resilience",
+  "name": "t_app_state_sync_missing_key_errors_are_marked_with_ismissingkey_blocked_in_wa_web_missing_key_errors_are_not_irrecoverable_on_first_attempt",
+  "fullName": "App State Sync missing key errors are marked with isMissingKey (Blocked in WA Web) missing key errors are NOT irrecoverable on first attempt"
+ },
+ {
+  "suite": "Utils/app-state-version",
+  "file": "utils_app_state_version",
+  "name": "t_ensurelthashstateversion_should_allow_tostring_after_fix_without_throwing",
+  "fullName": "ensureLTHashStateVersion should allow .toString() after fix without throwing"
+ },
+ {
+  "suite": "Utils/app-state-version",
+  "file": "utils_app_state_version",
+  "name": "t_ensurelthashstateversion_should_fix_nan_version_to_0",
+  "fullName": "ensureLTHashStateVersion should fix NaN version to 0"
+ },
+ {
+  "suite": "Utils/app-state-version",
+  "file": "utils_app_state_version",
+  "name": "t_ensurelthashstateversion_should_fix_null_version_to_0",
+  "fullName": "ensureLTHashStateVersion should fix null version to 0"
+ },
+ {
+  "suite": "Utils/app-state-version",
+  "file": "utils_app_state_version",
+  "name": "t_ensurelthashstateversion_should_fix_string_version_to_0",
+  "fullName": "ensureLTHashStateVersion should fix string version to 0"
+ },
+ {
+  "suite": "Utils/app-state-version",
+  "file": "utils_app_state_version",
+  "name": "t_ensurelthashstateversion_should_fix_undefined_version_to_0",
+  "fullName": "ensureLTHashStateVersion should fix undefined version to 0"
+ },
+ {
+  "suite": "Utils/app-state-version",
+  "file": "utils_app_state_version",
+  "name": "t_ensurelthashstateversion_should_keep_version_0_as_is",
+  "fullName": "ensureLTHashStateVersion should keep version 0 as-is"
+ },
+ {
+  "suite": "Utils/app-state-version",
+  "file": "utils_app_state_version",
+  "name": "t_ensurelthashstateversion_should_preserve_other_state_fields",
+  "fullName": "ensureLTHashStateVersion should preserve other state fields"
+ },
+ {
+  "suite": "Utils/app-state-version",
+  "file": "utils_app_state_version",
+  "name": "t_ensurelthashstateversion_should_return_state_unchanged_for_valid_numeric_version",
+  "fullName": "ensureLTHashStateVersion should return state unchanged for valid numeric version"
+ },
+ {
+  "suite": "Utils/auth-utils",
+  "file": "utils_auth_utils",
+  "name": "t_assertmeid_returns_me_id_when_authenticated",
+  "fullName": "assertMeId returns me.id when authenticated"
+ },
+ {
+  "suite": "Utils/auth-utils",
+  "file": "utils_auth_utils",
+  "name": "t_assertmeid_throws_boom_401_when_creds_me_is_undefined",
+  "fullName": "assertMeId throws Boom 401 when creds.me is undefined"
+ },
+ {
+  "suite": "Utils/auth-utils",
+  "file": "utils_auth_utils",
+  "name": "t_assertmeid_throws_boom_401_when_me_has_no_id",
+  "fullName": "assertMeId throws Boom 401 when me has no id"
+ },
+ {
+  "suite": "Utils/auth-utils",
+  "file": "utils_auth_utils",
+  "name": "t_assertmeid_throws_boom_401_when_me_id_is_empty_string",
+  "fullName": "assertMeId throws Boom 401 when me.id is empty string"
+ },
+ {
+  "suite": "Utils/chat-utils-resilience",
+  "file": "utils_chat_utils_resilience",
+  "name": "t_decodesyncdmutations_resilience_processes_good_records_alongside_a_bad_one_in_the_same_batch",
+  "fullName": "decodeSyncdMutations resilience processes good records alongside a bad one in the same batch"
+ },
+ {
+  "suite": "Utils/chat-utils-resilience",
+  "file": "utils_chat_utils_resilience",
+  "name": "t_decodesyncdmutations_resilience_skips_a_record_whose_aes_decrypt_fails_no_throw",
+  "fullName": "decodeSyncdMutations resilience skips a record whose AES decrypt fails (no throw)"
+ },
+ {
+  "suite": "Utils/chat-utils-resilience",
+  "file": "utils_chat_utils_resilience",
+  "name": "t_decodesyncdmutations_resilience_skips_a_record_whose_content_hmac_does_not_verify_no_throw",
+  "fullName": "decodeSyncdMutations resilience skips a record whose content HMAC does not verify (no throw)"
+ },
+ {
+  "suite": "Utils/chat-utils-resilience",
+  "file": "utils_chat_utils_resilience",
+  "name": "t_decodesyncdsnapshot_resilience_warns_and_returns_partial_state_when_aggregate_lthash_mac_verify_fails",
+  "fullName": "decodeSyncdSnapshot resilience warns and returns partial state when aggregate LTHash MAC verify fails"
+ },
+ {
+  "suite": "Utils/decode-wa-message",
+  "file": "utils_decode_wa_message",
+  "name": "t_decodemessagenode_happy_paths_decodes_a_1_1_incoming_chat_message",
+  "fullName": "decodeMessageNode happy paths decodes a 1:1 incoming chat message"
+ },
+ {
+  "suite": "Utils/decode-wa-message",
+  "file": "utils_decode_wa_message",
+  "name": "t_decodemessagenode_happy_paths_decodes_a_group_message",
+  "fullName": "decodeMessageNode happy paths decodes a group message"
+ },
+ {
+  "suite": "Utils/decode-wa-message",
+  "file": "utils_decode_wa_message",
+  "name": "t_decodemessagenode_happy_paths_decodes_an_outgoing_chat_message_recipient_set_from_me",
+  "fullName": "decodeMessageNode happy paths decodes an outgoing chat message (recipient set, from = me)"
+ },
+ {
+  "suite": "Utils/decode-wa-message",
+  "file": "utils_decode_wa_message",
+  "name": "t_decodemessagenode_happy_paths_rejects_a_recipient_tagged_message_that_is_not_from_me",
+  "fullName": "decodeMessageNode happy paths rejects a recipient-tagged message that is not from me"
+ },
+ {
+  "suite": "Utils/decode-wa-message",
+  "file": "utils_decode_wa_message",
+  "name": "t_decodemessagenode_validation_throws_boom_for_an_unknown_jid_type",
+  "fullName": "decodeMessageNode validation throws Boom for an unknown jid type"
+ },
+ {
+  "suite": "Utils/decode-wa-message",
+  "file": "utils_decode_wa_message",
+  "name": "t_decodemessagenode_validation_throws_boom_for_group_message_without_participant",
+  "fullName": "decodeMessageNode validation throws Boom for group message without participant"
+ },
+ {
+  "suite": "Utils/decode-wa-message",
+  "file": "utils_decode_wa_message",
+  "name": "t_decodemessagenode_validation_throws_boom_when_stanza_has_no_from_attribute",
+  "fullName": "decodeMessageNode validation throws Boom when stanza has no from attribute"
+ },
+ {
+  "suite": "Utils/decode-wa-message",
+  "file": "utils_decode_wa_message",
+  "name": "t_decodemessagenode_validation_throws_boom_when_stanza_has_no_id_attribute",
+  "fullName": "decodeMessageNode validation throws Boom when stanza has no id attribute"
+ },
+ {
+  "suite": "Utils/event-buffer",
+  "file": "utils_event_buffer",
+  "name": "t_event_buffer_messaging_history_set_pastparticipants_buffering_should_accumulate_pastparticipants_across_multiple_buffered_events",
+  "fullName": "event-buffer messaging-history.set pastParticipants buffering should accumulate pastParticipants across multiple buffered events"
+ },
+ {
+  "suite": "Utils/event-buffer",
+  "file": "utils_event_buffer",
+  "name": "t_event_buffer_messaging_history_set_pastparticipants_buffering_should_include_pastparticipants_in_flushed_event",
+  "fullName": "event-buffer messaging-history.set pastParticipants buffering should include pastParticipants in flushed event"
+ },
+ {
+  "suite": "Utils/event-buffer",
+  "file": "utils_event_buffer",
+  "name": "t_event_buffer_messaging_history_set_pastparticipants_buffering_should_not_lose_pastparticipants_when_later_event_has_none",
+  "fullName": "event-buffer messaging-history.set pastParticipants buffering should not lose pastParticipants when later event has none"
+ },
+ {
+  "suite": "Utils/generics",
+  "file": "utils_generics",
+  "name": "t_bufferjson_should_correctly_handle_an_empty_object",
+  "fullName": "BufferJSON should correctly handle an empty object"
+ },
+ {
+  "suite": "Utils/generics",
+  "file": "utils_generics",
+  "name": "t_bufferjson_should_correctly_perform_a_round_trip_stringify_with_replacer_parse_with_reviver",
+  "fullName": "BufferJSON should correctly perform a round trip (stringify with replacer, parse with reviver)"
+ },
+ {
+  "suite": "Utils/generics",
+  "file": "utils_generics",
+  "name": "t_bufferjson_should_correctly_revive_a_legacy_json_string_with_object_like_buffers",
+  "fullName": "BufferJSON should correctly revive a legacy JSON string with object-like buffers"
+ },
+ {
+  "suite": "Utils/generics",
+  "file": "utils_generics",
+  "name": "t_bufferjson_should_not_convert_other_objects_or_null_values",
+  "fullName": "BufferJSON should not convert other objects or null values"
+ },
+ {
+  "suite": "Utils/generics",
+  "file": "utils_generics",
+  "name": "t_bufferjson_should_not_corrupt_legitimate_objects_that_are_not_buffers",
+  "fullName": "BufferJSON should not corrupt legitimate objects that are not buffers"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_conversations_processing_should_extract_contacts_with_lid_and_pn_from_conversations",
+  "fullName": "processHistoryMessage conversations processing should extract contacts with LID and PN from conversations"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_lid_pn_mapping_extraction_from_conversations_should_combine_mappings_from_phonenumbertolidmappings_and_conversations",
+  "fullName": "processHistoryMessage LID-PN mapping extraction from conversations should combine mappings from phoneNumberToLidMappings and conversations"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_lid_pn_mapping_extraction_from_conversations_should_extract_mapping_for_hosted_lid_users",
+  "fullName": "processHistoryMessage LID-PN mapping extraction from conversations should extract mapping for hosted LID users"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_lid_pn_mapping_extraction_from_conversations_should_extract_mapping_for_hosted_pn_users",
+  "fullName": "processHistoryMessage LID-PN mapping extraction from conversations should extract mapping for hosted PN users"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_lid_pn_mapping_extraction_from_conversations_should_extract_mapping_from_userreceipt_when_pnjid_is_missing_and_chat_id_is_lid",
+  "fullName": "processHistoryMessage LID-PN mapping extraction from conversations should extract mapping from userReceipt when pnJid is missing and chat.id is LID"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_lid_pn_mapping_extraction_from_conversations_should_extract_mapping_when_chat_id_is_lid_and_pnjid_exists",
+  "fullName": "processHistoryMessage LID-PN mapping extraction from conversations should extract mapping when chat.id is LID and pnJid exists"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_lid_pn_mapping_extraction_from_conversations_should_extract_mapping_when_chat_id_is_pn_and_lidjid_exists",
+  "fullName": "processHistoryMessage LID-PN mapping extraction from conversations should extract mapping when chat.id is PN and lidJid exists"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_lid_pn_mapping_extraction_from_conversations_should_not_extract_mapping_for_group_chats",
+  "fullName": "processHistoryMessage LID-PN mapping extraction from conversations should not extract mapping for group chats"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_lid_pn_mapping_extraction_from_conversations_should_not_extract_mapping_from_userreceipt_when_fromme_is_false",
+  "fullName": "processHistoryMessage LID-PN mapping extraction from conversations should not extract mapping from userReceipt when fromMe is false"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_lid_pn_mapping_extraction_from_conversations_should_not_extract_mapping_from_userreceipt_when_pnjid_already_exists",
+  "fullName": "processHistoryMessage LID-PN mapping extraction from conversations should not extract mapping from userReceipt when pnJid already exists"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_lid_pn_mapping_extraction_from_conversations_should_not_extract_mapping_from_userreceipt_when_userjid_is_also_a_lid",
+  "fullName": "processHistoryMessage LID-PN mapping extraction from conversations should not extract mapping from userReceipt when userJid is also a LID"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_pastparticipants_extraction_should_pass_through_empty_pastparticipants_array",
+  "fullName": "processHistoryMessage pastParticipants extraction should pass through empty pastParticipants array"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_pastparticipants_extraction_should_pass_through_pastparticipants_from_history_sync_payload",
+  "fullName": "processHistoryMessage pastParticipants extraction should pass through pastParticipants from history sync payload"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_pastparticipants_extraction_should_pass_through_pastparticipants_with_multiple_groups",
+  "fullName": "processHistoryMessage pastParticipants extraction should pass through pastParticipants with multiple groups"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_pastparticipants_extraction_should_return_undefined_pastparticipants_when_not_present_in_payload",
+  "fullName": "processHistoryMessage pastParticipants extraction should return undefined pastParticipants when not present in payload"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_phonenumbertolidmappings_extraction_should_extract_lid_pn_mappings_from_history_sync_payload",
+  "fullName": "processHistoryMessage phoneNumberToLidMappings extraction should extract LID-PN mappings from history sync payload"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_phonenumbertolidmappings_extraction_should_process_mappings_regardless_of_sync_type",
+  "fullName": "processHistoryMessage phoneNumberToLidMappings extraction should process mappings regardless of sync type"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_phonenumbertolidmappings_extraction_should_return_empty_array_when_no_mappings_exist",
+  "fullName": "processHistoryMessage phoneNumberToLidMappings extraction should return empty array when no mappings exist"
+ },
+ {
+  "suite": "Utils/history",
+  "file": "utils_history",
+  "name": "t_processhistorymessage_phonenumbertolidmappings_extraction_should_skip_mappings_with_missing_lidjid_or_pnjid",
+  "fullName": "processHistoryMessage phoneNumberToLidMappings extraction should skip mappings with missing lidJid or pnJid"
+ },
+ {
+  "suite": "Utils/lt-hash-generator",
+  "file": "utils_lt_hash_generator",
+  "name": "t_makelthashgenerator_should_continue_processing_after_remove_without_previous_op",
+  "fullName": "makeLtHashGenerator should continue processing after REMOVE without previous op"
+ },
+ {
+  "suite": "Utils/lt-hash-generator",
+  "file": "utils_lt_hash_generator",
+  "name": "t_makelthashgenerator_should_handle_remove_with_existing_previous_op",
+  "fullName": "makeLtHashGenerator should handle REMOVE with existing previous op"
+ },
+ {
+  "suite": "Utils/lt-hash-generator",
+  "file": "utils_lt_hash_generator",
+  "name": "t_makelthashgenerator_should_handle_set_operation_normally",
+  "fullName": "makeLtHashGenerator should handle SET operation normally"
+ },
+ {
+  "suite": "Utils/lt-hash-generator",
+  "file": "utils_lt_hash_generator",
+  "name": "t_makelthashgenerator_should_not_add_missing_remove_to_indexvaluemap",
+  "fullName": "makeLtHashGenerator should not add missing REMOVE to indexValueMap"
+ },
+ {
+  "suite": "Utils/lt-hash-generator",
+  "file": "utils_lt_hash_generator",
+  "name": "t_makelthashgenerator_should_not_throw_on_remove_without_previous_op_matches_wa_web",
+  "fullName": "makeLtHashGenerator should NOT throw on REMOVE without previous op (matches WA Web)"
+ },
+ {
+  "suite": "Utils/lt-hash-generator",
+  "file": "utils_lt_hash_generator",
+  "name": "t_makelthashgenerator_should_process_mix_of_set_remove_with_prev_and_remove_without_prev",
+  "fullName": "makeLtHashGenerator should process mix of SET, REMOVE-with-prev, and REMOVE-without-prev"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_encryptedstream_should_complete_encryption_for_various_media_types",
+  "fullName": "encryptedStream should complete encryption for various media types"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_encryptedstream_should_complete_multiple_concurrent_encryptions_without_deadlock",
+  "fullName": "encryptedStream should complete multiple concurrent encryptions without deadlock"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_encryptedstream_should_encrypt_a_buffer_and_return_valid_result_without_hanging",
+  "fullName": "encryptedStream should encrypt a buffer and return valid result without hanging"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_encryptedstream_should_encrypt_a_stream_and_complete_without_race_condition",
+  "fullName": "encryptedStream should encrypt a stream and complete without race condition"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_encryptedstream_should_handle_empty_buffer_without_hanging",
+  "fullName": "encryptedStream should handle empty buffer without hanging"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_encryptedstream_should_handle_small_content_that_finishes_quickly",
+  "fullName": "encryptedStream should handle small content that finishes quickly"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_encryptedstream_should_save_original_file_when_saveoriginalfileifrequired_is_true",
+  "fullName": "encryptedStream should save original file when saveOriginalFileIfRequired is true"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_getwauploadtoserver_does_not_pass_a_generic_https_agent_as_a_fetch_dispatcher",
+  "fullName": "getWAUploadToServer does not pass a generic https Agent as a fetch dispatcher"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_uploadwithnodehttp_should_follow_a_single_redirect_302",
+  "fullName": "uploadWithNodeHttp should follow a single redirect (302)"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_uploadwithnodehttp_should_follow_multiple_redirects_301_302_200",
+  "fullName": "uploadWithNodeHttp should follow multiple redirects (301 -> 302 -> 200)"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_uploadwithnodehttp_should_handle_relative_redirect_urls",
+  "fullName": "uploadWithNodeHttp should handle relative redirect URLs"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_uploadwithnodehttp_should_preserve_headers_on_redirect",
+  "fullName": "uploadWithNodeHttp should preserve headers on redirect"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_uploadwithnodehttp_should_re_stream_file_content_on_redirect",
+  "fullName": "uploadWithNodeHttp should re-stream file content on redirect"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_uploadwithnodehttp_should_return_undefined_for_non_json_response",
+  "fullName": "uploadWithNodeHttp should return undefined for non-JSON response"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_uploadwithnodehttp_should_successfully_upload_a_file_and_receive_json_response",
+  "fullName": "uploadWithNodeHttp should successfully upload a file and receive JSON response"
+ },
+ {
+  "suite": "Utils/messages-media",
+  "file": "utils_messages_media",
+  "name": "t_uploadwithnodehttp_should_throw_error_on_too_many_redirects_more_than_5",
+  "fullName": "uploadWithNodeHttp should throw error on too many redirects (more than 5)"
+ },
+ {
+  "suite": "Utils/noise-handler",
+  "file": "utils_noise_handler",
+  "name": "t_noise_handler_decodeframe_with_multiple_frames_in_buffer_should_correctly_process_frames_when_callback_triggers_async_operations",
+  "fullName": "Noise Handler decodeFrame with multiple frames in buffer should correctly process frames when callback triggers async operations"
+ },
+ {
+  "suite": "Utils/noise-handler",
+  "file": "utils_noise_handler",
+  "name": "t_noise_handler_decodeframe_with_multiple_frames_in_buffer_should_handle_frames_split_across_multiple_decodeframe_calls",
+  "fullName": "Noise Handler decodeFrame with multiple frames in buffer should handle frames split across multiple decodeFrame calls"
+ },
+ {
+  "suite": "Utils/noise-handler",
+  "file": "utils_noise_handler",
+  "name": "t_noise_handler_decodeframe_with_multiple_frames_in_buffer_should_process_multiple_unencrypted_frames_in_single_buffer",
+  "fullName": "Noise Handler decodeFrame with multiple frames in buffer should process multiple unencrypted frames in single buffer"
+ },
+ {
+  "suite": "Utils/noise-handler",
+  "file": "utils_noise_handler",
+  "name": "t_noise_handler_encrypted_frame_handling_should_encrypt_and_verify_frame_structure",
+  "fullName": "Noise Handler encrypted frame handling should encrypt and verify frame structure"
+ },
+ {
+  "suite": "Utils/noise-handler",
+  "file": "utils_noise_handler",
+  "name": "t_noise_handler_encrypted_frame_handling_should_produce_different_ciphertext_for_same_plaintext_due_to_counter",
+  "fullName": "Noise Handler encrypted frame handling should produce different ciphertext for same plaintext due to counter"
+ },
+ {
+  "suite": "Utils/noise-handler",
+  "file": "utils_noise_handler",
+  "name": "t_noise_handler_encrypted_frame_race_condition_should_maintain_frame_order_with_interleaved_partial_frames_after_fix",
+  "fullName": "Noise Handler encrypted frame race condition should maintain frame order with interleaved partial frames after fix"
+ },
+ {
+  "suite": "Utils/noise-handler",
+  "file": "utils_noise_handler",
+  "name": "t_noise_handler_encrypted_frame_race_condition_should_produce_different_ciphertext_for_same_plaintext_due_to_counter",
+  "fullName": "Noise Handler encrypted frame race condition should produce different ciphertext for same plaintext due to counter"
+ },
+ {
+  "suite": "Utils/noise-handler",
+  "file": "utils_noise_handler",
+  "name": "t_noise_handler_encrypted_frame_race_condition_should_serialize_concurrent_decodeframe_calls_fix_for_race_condition",
+  "fullName": "Noise Handler encrypted frame race condition should serialize concurrent decodeFrame calls (fix for race condition)"
+ },
+ {
+  "suite": "Utils/noise-handler",
+  "file": "utils_noise_handler",
+  "name": "t_noise_handler_race_condition_scenario_concurrent_decodeframe_calls_should_handle_concurrent_decodeframe_calls_without_corrupting_inbytes_buffer",
+  "fullName": "Noise Handler race condition scenario - concurrent decodeFrame calls should handle concurrent decodeFrame calls without corrupting inBytes buffer"
+ },
+ {
+  "suite": "Utils/noise-handler",
+  "file": "utils_noise_handler",
+  "name": "t_noise_handler_race_condition_scenario_concurrent_decodeframe_calls_should_maintain_counter_integrity_with_many_frames_in_single_buffer",
+  "fullName": "Noise Handler race condition scenario - concurrent decodeFrame calls should maintain counter integrity with many frames in single buffer"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_basic_processing_should_dispatch_nodes_to_correct_handler_by_type",
+  "fullName": "makeOfflineNodeProcessor basic processing should dispatch nodes to correct handler by type"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_basic_processing_should_process_a_single_enqueued_node",
+  "fullName": "makeOfflineNodeProcessor basic processing should process a single enqueued node"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_basic_processing_should_process_multiple_nodes_in_fifo_order",
+  "fullName": "makeOfflineNodeProcessor basic processing should process multiple nodes in FIFO order"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_batch_yielding_should_not_yield_for_fewer_nodes_than_batchsize",
+  "fullName": "makeOfflineNodeProcessor batch yielding should NOT yield for fewer nodes than batchSize"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_batch_yielding_should_yield_exactly_at_batchsize_boundary",
+  "fullName": "makeOfflineNodeProcessor batch yielding should yield exactly at batchSize boundary"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_batch_yielding_should_yield_to_event_loop_after_batchsize_nodes",
+  "fullName": "makeOfflineNodeProcessor batch yielding should yield to event loop after batchSize nodes"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_connection_awareness_should_resume_processing_when_new_nodes_are_enqueued_after_connection_reopens",
+  "fullName": "makeOfflineNodeProcessor connection awareness should resume processing when new nodes are enqueued after connection reopens"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_connection_awareness_should_stop_processing_when_connection_closes",
+  "fullName": "makeOfflineNodeProcessor connection awareness should stop processing when connection closes"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_error_resilience_should_continue_processing_after_a_handler_throws",
+  "fullName": "makeOfflineNodeProcessor error resilience should continue processing after a handler throws"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_error_resilience_should_continue_processing_after_multiple_handler_errors",
+  "fullName": "makeOfflineNodeProcessor error resilience should continue processing after multiple handler errors"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_error_resilience_should_report_unknown_node_type_and_continue",
+  "fullName": "makeOfflineNodeProcessor error resilience should report unknown node type and continue"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_isprocessing_guard_should_not_start_a_second_processing_loop_for_concurrent_enqueues",
+  "fullName": "makeOfflineNodeProcessor isProcessing guard should not start a second processing loop for concurrent enqueues"
+ },
+ {
+  "suite": "Utils/offline-node-processor",
+  "file": "utils_offline_node_processor",
+  "name": "t_makeofflinenodeprocessor_mixed_error_types_should_handle_both_handler_errors_and_unknown_types_in_sequence",
+  "fullName": "makeOfflineNodeProcessor mixed error types should handle both handler errors and unknown types in sequence"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_cleanmessage_edge_cases_should_not_crash_if_jids_are_undefined",
+  "fullName": "cleanMessage Edge Cases should not crash if JIDs are undefined"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_cleanmessage_edge_cases_should_not_crash_on_an_empty_message_object",
+  "fullName": "cleanMessage Edge Cases should not crash on an empty message object"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_cleanmessage_hosted_jid_handling_should_correctly_normalize_a_hosted_lid_jid_back_to_lid_form",
+  "fullName": "cleanMessage Hosted JID Handling should correctly normalize a hosted LID JID back to LID form"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_cleanmessage_hosted_jid_handling_should_correctly_normalize_a_hosted_pn_jid_back_to_pn_form",
+  "fullName": "cleanMessage Hosted JID Handling should correctly normalize a hosted PN JID back to PN form"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_cleanmessage_jid_normalization_should_correctly_normalize_a_lid_with_a_device",
+  "fullName": "cleanMessage JID Normalization should correctly normalize a LID with a device"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_cleanmessage_jid_normalization_should_correctly_normalize_a_standard_phone_number_jid_with_a_device",
+  "fullName": "cleanMessage JID Normalization should correctly normalize a standard phone number JID with a device"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_cleanmessage_jid_normalization_should_not_modify_a_group_jid",
+  "fullName": "cleanMessage JID Normalization should not modify a group JID"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_cleanmessage_reaction_message_perspective_should_correct_the_perspective_of_a_reaction_to_another_user_s_message",
+  "fullName": "cleanMessage Reaction Message Perspective should correct the perspective of a reaction to another user's message"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_cleanmessage_reaction_message_perspective_should_not_modify_a_reaction_on_a_message_i_sent_from_another_device",
+  "fullName": "cleanMessage Reaction Message Perspective should not modify a reaction on a message I sent from another device"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_getchatid_returns_participant_for_non_status_broadcast_received_from_peer",
+  "fullName": "getChatId returns participant for non-status broadcast received from peer"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_getchatid_returns_remotejid_for_a_group_chat_broadcast_check_is_false",
+  "fullName": "getChatId returns remoteJid for a group chat (broadcast check is false)"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_getchatid_returns_remotejid_for_a_regular_1_1_chat",
+  "fullName": "getChatId returns remoteJid for a regular 1:1 chat"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_getchatid_returns_remotejid_for_non_status_broadcast_sent_by_me",
+  "fullName": "getChatId returns remoteJid for non-status broadcast sent by me"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_getchatid_returns_remotejid_for_status_broadcast_status_is_special_cased_to_remotejid",
+  "fullName": "getChatId returns remoteJid for status broadcast (status is special-cased to remoteJid)"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_getchatid_throws_when_broadcast_key_has_no_participant",
+  "fullName": "getChatId throws when broadcast key has no participant"
+ },
+ {
+  "suite": "Utils/process-message",
+  "file": "utils_process_message",
+  "name": "t_getchatid_throws_when_remotejid_is_missing",
+  "fullName": "getChatId throws when remoteJid is missing"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_archivechataction_emits_chats_update_with_archived_true_false",
+  "fullName": "processSyncAction archiveChatAction emits chats.update with archived true/false"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_archivechataction_handles_type_fallback_without_archivechataction",
+  "fullName": "processSyncAction archiveChatAction handles type fallback without archiveChatAction"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_contactaction_does_not_emit_events_when_id_is_missing",
+  "fullName": "processSyncAction contactAction does not emit events when id is missing"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_contactaction_emits_contacts_upsert_and_lid_mapping_update_for_pn_user_with_lid",
+  "fullName": "processSyncAction contactAction emits contacts.upsert and lid-mapping.update for PN user with LID"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_deletechataction_does_not_emit_during_initial_sync",
+  "fullName": "processSyncAction deleteChatAction does NOT emit during initial sync"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_deletechataction_emits_chats_delete_when_not_initial_sync",
+  "fullName": "processSyncAction deleteChatAction emits chats.delete when not initial sync"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_deletemessageformeaction_emits_messages_delete_with_correct_key",
+  "fullName": "processSyncAction deleteMessageForMeAction emits messages.delete with correct key"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_labelassociationaction_emits_labels_association_for_chat_label",
+  "fullName": "processSyncAction labelAssociationAction emits labels.association for chat label"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_labelassociationaction_emits_labels_association_for_message_label",
+  "fullName": "processSyncAction labelAssociationAction emits labels.association for message label"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_labeleditaction_emits_labels_edit",
+  "fullName": "processSyncAction labelEditAction emits labels.edit"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_lidcontactaction_emits_contacts_upsert_with_lid_contact",
+  "fullName": "processSyncAction lidContactAction emits contacts.upsert with LID contact"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_lockchataction_emits_chats_lock",
+  "fullName": "processSyncAction lockChatAction emits chats.lock"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_markchatasreadaction_emits_null_unreadcount_during_initial_sync_when_already_read",
+  "fullName": "processSyncAction markChatAsReadAction emits null unreadCount during initial sync when already read"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_markchatasreadaction_emits_unreadcount_0_when_read_is_true",
+  "fullName": "processSyncAction markChatAsReadAction emits unreadCount 0 when read is true"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_markchatasreadaction_emits_unreadcount_1_when_read_is_false",
+  "fullName": "processSyncAction markChatAsReadAction emits unreadCount -1 when read is false"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_muteaction_emits_chats_update_with_muteendtime_when_muted",
+  "fullName": "processSyncAction muteAction emits chats.update with muteEndTime when muted"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_muteaction_emits_null_muteendtime_when_unmuted",
+  "fullName": "processSyncAction muteAction emits null muteEndTime when unmuted"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_pinaction_emits_chats_update_with_pinned_timestamp_or_null",
+  "fullName": "processSyncAction pinAction emits chats.update with pinned timestamp or null"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_pnforlidchataction_does_not_emit_when_pnjid_is_missing",
+  "fullName": "processSyncAction pnForLidChatAction does not emit when pnJid is missing"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_pnforlidchataction_emits_lid_mapping_update_when_pnjid_is_present",
+  "fullName": "processSyncAction pnForLidChatAction emits lid-mapping.update when pnJid is present"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_pushnamesetting_does_not_emit_when_name_is_same_or_empty",
+  "fullName": "processSyncAction pushNameSetting does not emit when name is same or empty"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_pushnamesetting_emits_creds_update_when_name_differs",
+  "fullName": "processSyncAction pushNameSetting emits creds.update when name differs"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_settings_actions_localesetting_emits_settings_update",
+  "fullName": "processSyncAction settings actions localeSetting emits settings.update"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_settings_actions_unarchivechatssetting_emits_creds_update",
+  "fullName": "processSyncAction settings actions unarchiveChatsSetting emits creds.update"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_staraction_emits_messages_update_with_starred_value",
+  "fullName": "processSyncAction starAction emits messages.update with starred value"
+ },
+ {
+  "suite": "Utils/process-sync-action",
+  "file": "utils_process_sync_action",
+  "name": "t_processsyncaction_unprocessable_actions_logs_debug_for_unknown_action",
+  "fullName": "processSyncAction unprocessable actions logs debug for unknown action"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_getmessagereportingtoken_should_handle_group_messages",
+  "fullName": "Reporting Utils getMessageReportingToken should handle group messages"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_getmessagereportingtoken_should_handle_incoming_messages",
+  "fullName": "Reporting Utils getMessageReportingToken should handle incoming messages"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_getmessagereportingtoken_should_produce_consistent_tokens_for_the_same_input",
+  "fullName": "Reporting Utils getMessageReportingToken should produce consistent tokens for the same input"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_getmessagereportingtoken_should_produce_different_tokens_for_different_message_ids",
+  "fullName": "Reporting Utils getMessageReportingToken should produce different tokens for different message IDs"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_getmessagereportingtoken_should_produce_different_tokens_for_different_remotejids",
+  "fullName": "Reporting Utils getMessageReportingToken should produce different tokens for different remoteJids"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_getmessagereportingtoken_should_produce_different_tokens_for_different_secrets",
+  "fullName": "Reporting Utils getMessageReportingToken should produce different tokens for different secrets"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_getmessagereportingtoken_should_return_null_when_message_key_id_is_missing",
+  "fullName": "Reporting Utils getMessageReportingToken should return null when message key id is missing"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_getmessagereportingtoken_should_return_null_when_message_secret_is_missing",
+  "fullName": "Reporting Utils getMessageReportingToken should return null when message secret is missing"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_getmessagereportingtoken_should_return_valid_reporting_node_structure",
+  "fullName": "Reporting Utils getMessageReportingToken should return valid reporting node structure"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_false_for_enceventresponsemessage",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return false for encEventResponseMessage"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_false_for_encreactionmessage",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return false for encReactionMessage"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_false_for_pollupdatemessage",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return false for pollUpdateMessage"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_false_for_reactionmessage",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return false for reactionMessage"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_true_for_audiomessage",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return true for audioMessage"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_true_for_conversation",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return true for conversation"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_true_for_documentmessage",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return true for documentMessage"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_true_for_extendedtextmessage",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return true for extendedTextMessage"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_true_for_imagemessage",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return true for imageMessage"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_true_for_stickermessage",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return true for stickerMessage"
+ },
+ {
+  "suite": "Utils/reporting-utils",
+  "file": "utils_reporting_utils",
+  "name": "t_reporting_utils_shouldincludereportingtoken_should_return_true_for_videomessage",
+  "fullName": "Reporting Utils shouldIncludeReportingToken should return true for videoMessage"
+ },
+ {
+  "suite": "Utils/signal",
+  "file": "utils_signal",
+  "name": "t_parseandinjecte2esessions_should_process_all_user_node",
+  "fullName": "parseAndInjectE2ESessions should process all user node"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_basic_stanza_construction_should_build_a_minimal_ack_stanza_from_a_message_node",
+  "fullName": "buildAckStanza basic stanza construction should build a minimal ACK stanza from a message node"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_basic_stanza_construction_should_build_ack_for_call_node",
+  "fullName": "buildAckStanza basic stanza construction should build ACK for call node"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_basic_stanza_construction_should_build_ack_for_notification_node",
+  "fullName": "buildAckStanza basic stanza construction should build ACK for notification node"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_basic_stanza_construction_should_build_ack_for_receipt_node",
+  "fullName": "buildAckStanza basic stanza construction should build ACK for receipt node"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_error_codes_nack_should_include_error_attribute_when_errorcode_is_provided_and_non_zero",
+  "fullName": "buildAckStanza error codes (NACK) should include error attribute when errorCode is provided and non-zero"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_error_codes_nack_should_include_error_for_all_known_nack_codes",
+  "fullName": "buildAckStanza error codes (NACK) should include error for all known NACK codes"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_error_codes_nack_should_not_include_error_when_errorcode_is_0",
+  "fullName": "buildAckStanza error codes (NACK) should NOT include error when errorCode is 0"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_error_codes_nack_should_not_include_error_when_errorcode_is_undefined",
+  "fullName": "buildAckStanza error codes (NACK) should NOT include error when errorCode is undefined"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_from_field_for_message_acks_wa_web_sendack_sendnack_always_include_from_should_not_set_from_for_call_tag_even_with_meid",
+  "fullName": "buildAckStanza from field for message ACKs (WA Web: sendAck/sendNack always include from) should NOT set from for call tag even with meId"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_from_field_for_message_acks_wa_web_sendack_sendnack_always_include_from_should_not_set_from_for_message_ack_without_meid",
+  "fullName": "buildAckStanza from field for message ACKs (WA Web: sendAck/sendNack always include from) should NOT set from for message ACK without meId"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_from_field_for_message_acks_wa_web_sendack_sendnack_always_include_from_should_not_set_from_for_non_message_tags_even_with_meid",
+  "fullName": "buildAckStanza from field for message ACKs (WA Web: sendAck/sendNack always include from) should NOT set from for non-message tags even with meId"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_from_field_for_message_acks_wa_web_sendack_sendnack_always_include_from_should_not_set_from_for_receipt_tag_even_with_meid",
+  "fullName": "buildAckStanza from field for message ACKs (WA Web: sendAck/sendNack always include from) should NOT set from for receipt tag even with meId"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_from_field_for_message_acks_wa_web_sendack_sendnack_always_include_from_should_set_from_meid_for_message_ack_when_meid_provided",
+  "fullName": "buildAckStanza from field for message ACKs (WA Web: sendAck/sendNack always include from) should set from=meId for message ACK when meId provided"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_from_field_for_message_acks_wa_web_sendack_sendnack_always_include_from_should_set_from_meid_for_message_nack_when_meid_provided",
+  "fullName": "buildAckStanza from field for message ACKs (WA Web: sendAck/sendNack always include from) should set from=meId for message NACK when meId provided"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_from_field_for_message_acks_wa_web_sendack_sendnack_always_include_from_should_set_from_meid_for_unavailable_message_with_meid",
+  "fullName": "buildAckStanza from field for message ACKs (WA Web: sendAck/sendNack always include from) should set from=meId for unavailable message with meId"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_full_stanza_construction_combined_attributes_should_handle_group_message_ack_no_error_with_from",
+  "fullName": "buildAckStanza full stanza construction (combined attributes) should handle group message ACK (no error) with from"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_full_stanza_construction_combined_attributes_should_handle_group_message_nack_with_all_attributes",
+  "fullName": "buildAckStanza full stanza construction (combined attributes) should handle group message NACK with all attributes"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_full_stanza_construction_combined_attributes_should_handle_receipt_with_participant_and_recipient_no_from",
+  "fullName": "buildAckStanza full stanza construction (combined attributes) should handle receipt with participant and recipient (no from)"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_participant_and_recipient_forwarding_should_forward_both_participant_and_recipient_when_both_present",
+  "fullName": "buildAckStanza participant and recipient forwarding should forward both participant and recipient when both present"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_participant_and_recipient_forwarding_should_include_participant_when_present_in_source_node",
+  "fullName": "buildAckStanza participant and recipient forwarding should include participant when present in source node"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_participant_and_recipient_forwarding_should_include_recipient_when_present",
+  "fullName": "buildAckStanza participant and recipient forwarding should include recipient when present"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_participant_and_recipient_forwarding_should_not_include_participant_when_absent",
+  "fullName": "buildAckStanza participant and recipient forwarding should NOT include participant when absent"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_participant_and_recipient_forwarding_should_not_include_recipient_when_absent",
+  "fullName": "buildAckStanza participant and recipient forwarding should NOT include recipient when absent"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_type_attribute_handling_wa_web_n_type_drop_attr_should_always_include_type_for_message_tag_when_present",
+  "fullName": "buildAckStanza type attribute handling (WA Web: n.type || DROP_ATTR) should always include type for message tag when present"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_type_attribute_handling_wa_web_n_type_drop_attr_should_include_type_for_message_nack",
+  "fullName": "buildAckStanza type attribute handling (WA Web: n.type || DROP_ATTR) should include type for message NACK"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_type_attribute_handling_wa_web_n_type_drop_attr_should_include_type_for_non_message_tags",
+  "fullName": "buildAckStanza type attribute handling (WA Web: n.type || DROP_ATTR) should include type for non-message tags"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_type_attribute_handling_wa_web_n_type_drop_attr_should_include_type_for_receipt_tag",
+  "fullName": "buildAckStanza type attribute handling (WA Web: n.type || DROP_ATTR) should include type for receipt tag"
+ },
+ {
+  "suite": "Utils/stanza-ack",
+  "file": "utils_stanza_ack",
+  "name": "t_buildackstanza_type_attribute_handling_wa_web_n_type_drop_attr_should_not_include_type_when_source_node_has_no_type",
+  "fullName": "buildAckStanza type attribute handling (WA Web: n.type || DROP_ATTR) should NOT include type when source node has no type"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_contacts_upsert_emits_with_phonenumber_from_id_when_id_is_pn_user",
+  "fullName": "processContactAction contacts.upsert emits with phoneNumber from id when id is PN user"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_contacts_upsert_handles_undefined_fullname",
+  "fullName": "processContactAction contacts.upsert handles undefined fullName"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_contacts_upsert_uses_pnjid_as_phonenumber_fallback_when_id_is_lid_user",
+  "fullName": "processContactAction contacts.upsert uses pnJid as phoneNumber fallback when id is LID user"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_lid_mapping_update_does_not_emit_for_group_jids",
+  "fullName": "processContactAction lid-mapping.update does NOT emit for group JIDs"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_lid_mapping_update_does_not_emit_when_id_is_lid_user_not_pn",
+  "fullName": "processContactAction lid-mapping.update does NOT emit when id is LID user (not PN)"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_lid_mapping_update_does_not_emit_when_lidjid_is_invalid_format",
+  "fullName": "processContactAction lid-mapping.update does NOT emit when lidJid is invalid format"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_lid_mapping_update_does_not_emit_when_lidjid_is_missing",
+  "fullName": "processContactAction lid-mapping.update does NOT emit when lidJid is missing"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_lid_mapping_update_emits_when_lid_and_pn_are_valid",
+  "fullName": "processContactAction lid-mapping.update emits when LID and PN are valid"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_lid_mapping_update_handles_lid_with_device_id_suffix",
+  "fullName": "processContactAction lid-mapping.update handles LID with device ID suffix"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_missing_id_returns_empty_array_and_logs_warning_when_id_is_undefined",
+  "fullName": "processContactAction missing id returns empty array and logs warning when id is undefined"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_missing_id_returns_empty_array_when_id_is_empty_string",
+  "fullName": "processContactAction missing id returns empty array when id is empty string"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_pn_extraction_from_index_1_pnjid_is_always_null_extracts_pn_from_id_when_pnjid_is_null",
+  "fullName": "processContactAction PN extraction from index[1] (pnJid is always null) extracts PN from id when pnJid is null"
+ },
+ {
+  "suite": "Utils/sync-action-utils",
+  "file": "utils_sync_action_utils",
+  "name": "t_processcontactaction_pn_extraction_from_index_1_pnjid_is_always_null_prefers_id_over_pnjid_when_id_is_pn_user",
+  "fullName": "processContactAction PN extraction from index[1] (pnJid is always null) prefers id over pnJid when id is PN user"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_appends_tctoken_to_existing_basecontent",
+  "fullName": "buildTcTokenFromJid appends tctoken to existing baseContent"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_deletes_expired_token_from_store_phase_5_opportunistic_cleanup",
+  "fullName": "buildTcTokenFromJid deletes expired token from store (Phase 5 opportunistic cleanup)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_does_not_append_tctoken_to_basecontent_when_token_has_no_timestamp",
+  "fullName": "buildTcTokenFromJid does not append tctoken to baseContent when token has no timestamp"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_does_not_delete_when_token_is_simply_missing",
+  "fullName": "buildTcTokenFromJid does NOT delete when token is simply missing"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_handles_key_store_errors_gracefully",
+  "fullName": "buildTcTokenFromJid handles key store errors gracefully"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_handles_key_store_errors_with_basecontent_fallback",
+  "fullName": "buildTcTokenFromJid handles key store errors with baseContent fallback"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_preserves_basecontent_when_no_token",
+  "fullName": "buildTcTokenFromJid preserves baseContent when no token"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_preserves_sendertimestamp_when_clearing_an_expired_peer_token",
+  "fullName": "buildTcTokenFromJid preserves senderTimestamp when clearing an expired peer token"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_returns_tctoken_node_for_valid_non_expired_token",
+  "fullName": "buildTcTokenFromJid returns tctoken node for valid non-expired token"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_returns_undefined_for_expired_token",
+  "fullName": "buildTcTokenFromJid returns undefined for expired token"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_returns_undefined_when_no_token_exists",
+  "fullName": "buildTcTokenFromJid returns undefined when no token exists"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_buildtctokenfromjid_returns_undefined_when_token_has_no_timestamp_treated_as_expired",
+  "fullName": "buildTcTokenFromJid returns undefined when token has no timestamp (treated as expired)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_boundary_token_exactly_at_cutoff_is_not_expired",
+  "fullName": "isTcTokenExpired boundary: token exactly at cutoff is NOT expired"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_boundary_token_one_second_before_cutoff_is_expired",
+  "fullName": "isTcTokenExpired boundary: token one second before cutoff IS expired"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_handles_string_timestamp_expired",
+  "fullName": "isTcTokenExpired handles string timestamp (expired)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_handles_string_timestamp_recent",
+  "fullName": "isTcTokenExpired handles string timestamp (recent)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_returns_false_for_recent_token_1_day_ago",
+  "fullName": "isTcTokenExpired returns false for recent token (1 day ago)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_returns_false_for_token_20_days_ago_within_28_day_window",
+  "fullName": "isTcTokenExpired returns false for token 20 days ago (within 28-day window)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_returns_false_for_token_issued_just_now",
+  "fullName": "isTcTokenExpired returns false for token issued just now"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_returns_true_for_empty_string",
+  "fullName": "isTcTokenExpired returns true for empty string"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_returns_true_for_expired_token_30_days_ago",
+  "fullName": "isTcTokenExpired returns true for expired token (30 days ago)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_returns_true_for_nan_string",
+  "fullName": "isTcTokenExpired returns true for NaN string"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_returns_true_for_null",
+  "fullName": "isTcTokenExpired returns true for null"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_returns_true_for_timestamp_0",
+  "fullName": "isTcTokenExpired returns true for timestamp 0"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_returns_true_for_undefined",
+  "fullName": "isTcTokenExpired returns true for undefined"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_returns_true_for_very_old_timestamp_epoch",
+  "fullName": "isTcTokenExpired returns true for very old timestamp (epoch)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_istctokenexpired_verifies_bucket_math_cutoff_currentbucket_3_bucketduration",
+  "fullName": "isTcTokenExpired verifies bucket math: cutoff = (currentBucket - 3) * bucketDuration"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_psa_and_bot_jid_detection_isjidbot_detects_pn_bot_patterns",
+  "fullName": "PSA and bot JID detection isJidBot detects PN bot patterns"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_psa_and_bot_jid_detection_isjidmetaai_detects_bot_suffix",
+  "fullName": "PSA and bot JID detection isJidMetaAI detects @bot suffix"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_psa_and_bot_jid_detection_psa_wid_is_0_c_us",
+  "fullName": "PSA and bot JID detection PSA_WID is 0@c.us"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_psa_and_bot_jid_detection_regular_user_jids_are_not_bot",
+  "fullName": "PSA and bot JID detection regular user JIDs are not bot"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_resolveissuancejid_resolves_lid_to_pn_when_issuetolid_false",
+  "fullName": "resolveIssuanceJid resolves LID to PN when issueToLid=false"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_resolveissuancejid_resolves_pn_to_lid_when_issuetolid_true",
+  "fullName": "resolveIssuanceJid resolves PN to LID when issueToLid=true"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_resolveissuancejid_returns_lid_as_is_when_issuetolid_true_and_already_a_lid",
+  "fullName": "resolveIssuanceJid returns LID as-is when issueToLid=true and already a LID"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_resolveissuancejid_returns_lid_when_issuetolid_false_but_no_pn_mapping",
+  "fullName": "resolveIssuanceJid returns LID when issueToLid=false but no PN mapping"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_resolveissuancejid_returns_original_jid_when_issuetolid_true_but_no_lid_mapping",
+  "fullName": "resolveIssuanceJid returns original JID when issueToLid=true but no LID mapping"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_resolveissuancejid_returns_pn_as_is_when_issuetolid_false_and_already_a_pn",
+  "fullName": "resolveIssuanceJid returns PN as-is when issueToLid=false and already a PN"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_server_error_codes_messageaccountrestriction_is_463",
+  "fullName": "SERVER_ERROR_CODES MessageAccountRestriction is 463"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_server_error_codes_smaxinvalid_is_479",
+  "fullName": "SERVER_ERROR_CODES SmaxInvalid is 479"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_shouldsendnewtctoken_returns_false_for_timestamp_at_start_of_current_bucket",
+  "fullName": "shouldSendNewTcToken returns false for timestamp at start of current bucket"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_shouldsendnewtctoken_returns_false_for_timestamp_equal_to_now",
+  "fullName": "shouldSendNewTcToken returns false for timestamp equal to now"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_shouldsendnewtctoken_returns_false_for_timestamp_in_current_bucket",
+  "fullName": "shouldSendNewTcToken returns false for timestamp in current bucket"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_shouldsendnewtctoken_returns_true_for_timestamp_at_end_of_previous_bucket",
+  "fullName": "shouldSendNewTcToken returns true for timestamp at end of previous bucket"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_shouldsendnewtctoken_returns_true_for_timestamp_in_previous_bucket",
+  "fullName": "shouldSendNewTcToken returns true for timestamp in previous bucket"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_shouldsendnewtctoken_returns_true_for_undefined",
+  "fullName": "shouldSendNewTcToken returns true for undefined"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_shouldsendnewtctoken_returns_true_for_very_old_timestamp",
+  "fullName": "shouldSendNewTcToken returns true for very old timestamp"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_calls_onnewjidstored_with_the_resolved_storage_jid",
+  "fullName": "storeTcTokensFromIqResult calls onNewJidStored with the resolved storage JID"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_does_not_overwrite_timestamped_entry_with_timestamp_less_token",
+  "fullName": "storeTcTokensFromIqResult does not overwrite timestamped entry with timestamp-less token"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_multiple_notifications_from_different_contacts_do_not_overwrite_each_other",
+  "fullName": "storeTcTokensFromIqResult multiple notifications from different contacts do NOT overwrite each other"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_resolves_fallbackjid_to_lid_via_getlidforpn",
+  "fullName": "storeTcTokensFromIqResult resolves fallbackJid to LID via getLIDForPN"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_respects_timestamp_monotonicity_guard",
+  "fullName": "storeTcTokensFromIqResult respects timestamp monotonicity guard"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_skips_storage_for_non_regular_user_bot",
+  "fullName": "storeTcTokensFromIqResult skips storage for non-regular user (bot)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_skips_storage_for_non_regular_user_group",
+  "fullName": "storeTcTokensFromIqResult skips storage for non-regular user (group)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_skips_storage_for_non_regular_user_metaai",
+  "fullName": "storeTcTokensFromIqResult skips storage for non-regular user (MetaAI)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_skips_storage_for_non_regular_user_psa",
+  "fullName": "storeTcTokensFromIqResult skips storage for non-regular user (PSA)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_skips_token_nodes_with_non_trusted_contact_type",
+  "fullName": "storeTcTokensFromIqResult skips token nodes with non-trusted_contact type"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_stores_token_under_fallbackjid_even_when_token_node_has_a_different_jid_attr",
+  "fullName": "storeTcTokensFromIqResult stores token under fallbackJid even when token node has a different jid attr"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_storetctokensfromiqresult_uses_fallbackjid_when_token_node_has_no_jid_attr",
+  "fullName": "storeTcTokensFromIqResult uses fallbackJid when token node has no jid attr"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_index_helpers_buildmergedtctokenindexwrite_filters_out_the_sentinel_key_and_empty_strings",
+  "fullName": "tctoken index helpers buildMergedTcTokenIndexWrite filters out the sentinel key and empty strings"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_index_helpers_buildmergedtctokenindexwrite_unions_persisted_and_added_jids",
+  "fullName": "tctoken index helpers buildMergedTcTokenIndexWrite unions persisted and added JIDs"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_index_helpers_readtctokenindex_parses_persisted_jids_and_drops_the_sentinel_itself",
+  "fullName": "tctoken index helpers readTcTokenIndex parses persisted JIDs and drops the sentinel itself"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_index_helpers_readtctokenindex_returns_empty_array_when_no_sentinel_exists",
+  "fullName": "tctoken index helpers readTcTokenIndex returns empty array when no sentinel exists"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_index_helpers_readtctokenindex_tolerates_malformed_payloads",
+  "fullName": "tctoken index helpers readTcTokenIndex tolerates malformed payloads"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_full_lifecycle_simulation_multiple_contacts_have_independent_token_lifecycles",
+  "fullName": "tctoken integration scenarios full lifecycle simulation multiple contacts have independent token lifecycles"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_full_lifecycle_simulation_sendertimestamp_and_received_timestamp_are_independent",
+  "fullName": "tctoken integration scenarios full lifecycle simulation senderTimestamp and received timestamp are independent"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_full_lifecycle_simulation_token_goes_through_complete_lifecycle_missing_fetch_valid_bucket_cross_expired_prune",
+  "fullName": "tctoken integration scenarios full lifecycle simulation token goes through complete lifecycle: missing → fetch → valid → bucket cross → expired → prune"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_1_token_fetch_and_store_flow_token_missing_fetch_stores_new_token_subsequent_read_finds_it",
+  "fullName": "tctoken integration scenarios Phase 1: token fetch and store flow token missing → fetch stores new token → subsequent read finds it"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_2_expired_token_triggers_re_fetch_expired_token_is_detected_and_deleted_then_re_fetch_stores_fresh_token",
+  "fullName": "tctoken integration scenarios Phase 2: expired token triggers re-fetch expired token is detected and deleted, then re-fetch stores fresh token"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_2_shouldsendnewtctoken_gates_fire_and_forget_old_sendertimestamp_triggers_re_issuance",
+  "fullName": "tctoken integration scenarios Phase 2: shouldSendNewTcToken gates fire-and-forget old senderTimestamp triggers re-issuance"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_2_shouldsendnewtctoken_gates_fire_and_forget_recent_sendertimestamp_prevents_re_issuance",
+  "fullName": "tctoken integration scenarios Phase 2: shouldSendNewTcToken gates fire-and-forget recent senderTimestamp prevents re-issuance"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_2_shouldsendnewtctoken_gates_fire_and_forget_sendertimestamp_update_prevents_next_issuance_in_same_bucket",
+  "fullName": "tctoken integration scenarios Phase 2: shouldSendNewTcToken gates fire-and-forget senderTimestamp update prevents next issuance in same bucket"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_4_identity_change_re_issuance_decision_does_not_re_issue_when_no_sendertimestamp_exists",
+  "fullName": "tctoken integration scenarios Phase 4: identity change re-issuance decision does NOT re-issue when no senderTimestamp exists"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_4_identity_change_re_issuance_decision_does_not_re_issue_when_sendertimestamp_is_expired",
+  "fullName": "tctoken integration scenarios Phase 4: identity change re-issuance decision does NOT re-issue when senderTimestamp is expired"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_4_identity_change_re_issuance_decision_re_issues_when_sendertimestamp_is_recent_within_28_day_window",
+  "fullName": "tctoken integration scenarios Phase 4: identity change re-issuance decision re-issues when senderTimestamp is recent (within 28-day window)"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_5_token_pruning_prune_builds_correct_deletion_map",
+  "fullName": "tctoken integration scenarios Phase 5: token pruning prune builds correct deletion map"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_5_token_pruning_prune_correctly_identifies_expired_vs_valid_tokens",
+  "fullName": "tctoken integration scenarios Phase 5: token pruning prune correctly identifies expired vs valid tokens"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_5_token_pruning_prune_handles_entries_with_missing_timestamp",
+  "fullName": "tctoken integration scenarios Phase 5: token pruning prune handles entries with missing timestamp"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_5_token_pruning_prune_with_all_tokens_expired_results_in_full_cleanup",
+  "fullName": "tctoken integration scenarios Phase 5: token pruning prune with all tokens expired results in full cleanup"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_phase_5_token_pruning_prune_with_all_tokens_valid_results_in_no_deletions",
+  "fullName": "tctoken integration scenarios Phase 5: token pruning prune with all tokens valid results in no deletions"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_sendertimestamp_preservation_on_token_update_simulates_notification_handler_preserving_sendertimestamp_via_spread",
+  "fullName": "tctoken integration scenarios senderTimestamp preservation on token update simulates notification handler preserving senderTimestamp via spread"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_sendertimestamp_preservation_on_token_update_spread_with_undefined_existing_does_not_crash",
+  "fullName": "tctoken integration scenarios senderTimestamp preservation on token update spread with undefined existing does not crash"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_tctoken_index_persistence_index_enables_pruning_of_tokens_from_previous_sessions",
+  "fullName": "tctoken integration scenarios tctoken index persistence index enables pruning of tokens from previous sessions"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_tctoken_index_persistence_index_ignores_sentinel_key_when_loading",
+  "fullName": "tctoken integration scenarios tctoken index persistence index ignores sentinel key when loading"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_tctoken_index_persistence_index_round_trips_through_json_encoded_buffer",
+  "fullName": "tctoken integration scenarios tctoken index persistence index round-trips through JSON-encoded Buffer"
+ },
+ {
+  "suite": "Utils/tc-token",
+  "file": "utils_tc_token",
+  "name": "t_tctoken_integration_scenarios_tctoken_index_persistence_only_schedules_index_save_when_jid_is_new",
+  "fullName": "tctoken integration scenarios tctoken index persistence only schedules index save when JID is new"
+ }
+]

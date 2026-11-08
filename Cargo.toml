@@ -1,0 +1,24 @@
+[workspace]
+members = ["crates/waproto", "crates/baileys"]
+exclude = ["lust-lang", "upstream", "tools"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+lto = "fat"
+panic = "abort"
+
+[workspace.metadata.lust]
+dev-exclude-features = ["native"]
+
+[profile.prof]
+inherits = "release"
+debug = true
+lto = false
+codegen-units = 16

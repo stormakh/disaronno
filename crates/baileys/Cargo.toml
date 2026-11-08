@@ -1,0 +1,31 @@
+[package]
+name = "baileys"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[features]
+default = ["native"]
+# Audited crypto and TLS for release builds. Lust cannot compile these crates (unsafe, asm),
+# so lust dev builds drop this feature and use crypto/soft.rs, which never ships.
+native = ["waproto/native", "dep:aws-lc-rs", "dep:aws-lc-sys", "dep:aes", "dep:cbc", "dep:ctr", "dep:md-5", "dep:curve25519-dalek", "dep:getrandom", "dep:rustls", "dep:webpki-roots"]
+
+[dependencies]
+waproto = { path = "../waproto", default-features = false }
+flate2 = "=1.1.10"
+rustc-hash = "=2.1.2"
+aws-lc-rs = { version = "1", default-features = false, features = ["aws-lc-sys"], optional = true }
+# X25519 of aws-lc-rs takes keys in a form that adds a base multiplication, so this calls the C function.
+aws-lc-sys = { version = "0.47", optional = true }
+aes = { version = "0.8", optional = true }
+cbc = { version = "0.1", features = ["std"], optional = true }
+ctr = { version = "0.9", optional = true }
+md-5 = { version = "0.10", optional = true }
+curve25519-dalek = { version = "4", optional = true }
+getrandom = { version = "0.3", optional = true }
+rustls = { version = "0.23", default-features = false, features = ["aws_lc_rs", "std", "tls12"], optional = true }
+webpki-roots = { version = "1", optional = true }
+
+[[bin]]
+name = "baileys-bench"
+path = "src/bin/bench.rs"

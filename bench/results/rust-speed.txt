@@ -1,0 +1,15 @@
+binary_encode 689025.3
+binary_decode 664134.8
+proto_encode 3340035.3
+proto_decode 1679241.5
+history_decode 519
+lthash_64 24667.1
+media_encrypt_1mb 382
+curve_sign 33507
+curve_agree 49413
+signal_roundtrip 84621.9
+group_roundtrip 4415.3
+appstate_roundtrip 57665.5
+receive_pipeline 137706.4
+compact_hold 1531562.2
+compact_read 1661512.1
